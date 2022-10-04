@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* header */
+header {
+  border-bottom: 2px solid black;
+}
+
+.header-heading {
+  margin-top: 2rem;
+}
+
+.header-div {
+  margin-top: 2rem;
+  font-size: 17px;
+}
+
+/* body */
+
+.genre-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.genre-items {
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 7px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: wheat;
+}
+.genre-items:hover {
+  background-color: blue;
+  color: white;
+}
+
+#suggest-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.anime-img {
+  width: 500px;
+  margin: 10px;
+  height: 300px;
+  justify-content: center;
+}
+
+.suggest-items {
+  padding: 5px;
+  /* border: 2px solid blue; */
+  margin: 5px;
+}
+.lower-items {
+  font-weight: bold;
+  font-size: 15px;
+}
+.anime-name-list {
+  text-transform: uppercase;
+  font-size: 20px;
+  border-bottom: 4px dotted black;
+  margin: 5px 0 5px 0;
+}
+
+footer {
+  margin-top: 3rem;
+  border-top: 2px solid black;
+  font-weight: bold;
+}
+#footer-div {
+  margin: 1rem 0 1rem 0;
+}
+
+#footer-link {
+  text-decoration: none;
+  color: blue;
+}
